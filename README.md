@@ -42,3 +42,25 @@ Kelas CartPage adalah halaman yang menampilkan isi keranjang belanja. Di halaman
 ✅ CheckoutPage
 
 Kelas CheckoutPage merupakan halaman terakhir dalam proses belanja. Setelah pengguna merasa yakin dengan isi keranjangnya, mereka dapat melanjutkan ke halaman ini untuk menyelesaikan pembelian. Biasanya halaman ini menampilkan ringkasan pesanan dan total pembayaran. Halaman ini berfungsi sebagai tahap akhir sebelum transaksi dianggap selesai.
+
+🔄 Alur Program
+
+<img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/099be065-ef93-460b-86ce-0bb553a10690" />
+
+1. Aplikasi dibuka di browser
+Saat pengguna membuka aplikasi di Chrome, halaman pertama yang muncul adalah daftar produk. Di halaman ini ditampilkan nama dan harga setiap produk yang tersedia.
+
+<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/70d6def8-6ec2-494a-bf8e-7ee3c4e8aefc" />
+
+2. Mencari dan Memfilter Produk
+Pengguna dapat mengetik nama produk pada kolom pencarian untuk menampilkan produk yang sesuai. Selain itu, pengguna juga dapat memilih kategori tertentu agar produk yang ditampilkan sesuai dengan jenis yang dipilih.
+
+<img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/5c942470-dc26-4fac-aeb7-a6db471f0f1e" />
+
+3. Menambahkan dan Melihat Keranjang
+Setelah menemukan produk yang diinginkan, pengguna dapat menambahkan produk tersebut ke keranjang. Produk yang dipilih akan tersimpan dan dapat dilihat pada halaman keranjang. Di halaman ini ditampilkan daftar produk yang telah dipilih beserta jumlah dan total harganya.
+
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/2ac66a38-c0be-474b-a327-f49241fb217b" />
+
+4. Checkout
+Halaman Checkout merupakan tahap akhir sebelum pesanan diselesaikan. Pada halaman ini ditampilkan total pembayaran dari seluruh produk yang telah dimasukkan ke dalam keranjang. Pengguna diminta mengisi nama dan alamat pada kolom yang tersedia sebagai data pemesanan. Setelah semua data diisi, pengguna dapat menekan tombol Place Order untuk memproses dan menyelesaikan pesanan.
